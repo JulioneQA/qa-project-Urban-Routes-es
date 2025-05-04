@@ -1,4 +1,4 @@
-import helpers
+import Helpers
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
@@ -86,7 +86,7 @@ class UrbanRoutesPage:
         self.driver.find_element(*self.next_button).click()
 
     def add_code_field(self):
-        self.driver.find_element(*self.add_code).send_keys(helpers.retrieve_phone_code(self.driver))
+        self.driver.find_element(*self.add_code).send_keys(Helpers.retrieve_phone_code(self.driver))
 
     def click_button_confirm(self):
         self.driver.find_element(*self.button_confirm).click()
