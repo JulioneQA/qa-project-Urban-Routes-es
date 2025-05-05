@@ -1,21 +1,20 @@
+Julio César Reyes Triana Cohort 26 - QA Engineer
+
 Pruebas automatizadas para solicitar un servicio en Urban Routes
 
 Pruebas automatizadas para solicitar un servicio en la app web Urban Routes
+
 Pruebas para solicitar un taxi de la tarifa comfort de Urban Routes
 
 lenguaje
 
-Static Badge
-
 librería
 
-Static Badge
+Framework: Selenium
 
-Framework
+Para ejecutar las pruebas se requiere tener instalados Selenium y pytest 
 
-Static Badge
-
-Para ejecutar las pruebas se requiere tener instalados Selenium y pytest
+Pytest: A fin de que las pruebas puedan ser ejecutadas
 
 Pruebas 
 
