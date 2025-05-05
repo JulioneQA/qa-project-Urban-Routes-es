@@ -18,9 +18,11 @@ Pytest: A fin de que las pruebas puedan ser ejecutadas
 
 Pruebas 
 
+Para ejecutar todas las pruebas se puede utilizar el comando: pytest Test.py
+
 Las pruebas que se ejecutan son las siguientes:
 
-test_set_route: verifica que las direcciones han sido agregadadas correctamente
+test_set_route: verifica que las direcciones han sido agregadas correctamente
 test_select_comfort: verifica que la tarifa conform ha sido seleccionada
 test_phone_number_correct: verifica que el número de teléfono se haya agregado correctamente
 test_add_card: verifica que la tajeta se ha agregado
